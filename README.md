@@ -32,10 +32,12 @@
 
 ![server-5](https://cdn.jsdelivr.net/gh/ruicky/ruicky.github.io/2020/06/05/jd-sign/server-5.jpg)
 
-2、配置config文件
+### 2、配置config文件
 
 请参考userExample.json里的信息填写，该程序支持多用户，在配置json文件中增加多条信息即可。
 
-3、docker run -d --network=bridge -v /userExample.json:/home/AUTO-NOC-ZJGSU/user.json --restart=always --name yunzhanyi myleo1/yunzhanyi
+### 3、docker命令
+
+docker run -d --network=bridge -v /userExample.json:/home/AUTO-NOC-ZJGSU/user.json --restart=always --name yunzhanyi myleo1/yunzhanyi
 
 将/userExample.json改成userExample.json所在的路径即可，如/root/userExample.json
