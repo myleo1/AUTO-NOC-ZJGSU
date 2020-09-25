@@ -1,0 +1,10 @@
+[
+  {
+    "trueName": "填真实姓名，用作推送时区分用户，也可以填昵称",
+    "name": "填学号",
+    "psswd": "密码，默认是身份证后6位",
+    "home": "住址",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "wechatPushKey": "填server酱里的sckey"
+  }
+]
